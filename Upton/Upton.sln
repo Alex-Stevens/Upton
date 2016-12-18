@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsService", "WindowsService\WindowsService.csproj", "{CAD37008-EF11-4826-8ECE-50082D5B1170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{1B4BF926-819E-4A5B-8F16-8F97A8E2005E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrowserExtension", "BrowserExtension", "{4DC7B5B2-DD56-4022-83D3-3271A02B3FAC}"
+	ProjectSection(SolutionItems) = preProject
+		BrowserExtension\background.js = BrowserExtension\background.js
+		BrowserExtension\icon.png = BrowserExtension\icon.png
+		BrowserExtension\manifest.json = BrowserExtension\manifest.json
+		BrowserExtension\myscript.js = BrowserExtension\myscript.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD37008-EF11-4826-8ECE-50082D5B1170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD37008-EF11-4826-8ECE-50082D5B1170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD37008-EF11-4826-8ECE-50082D5B1170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD37008-EF11-4826-8ECE-50082D5B1170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4BF926-819E-4A5B-8F16-8F97A8E2005E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4BF926-819E-4A5B-8F16-8F97A8E2005E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4BF926-819E-4A5B-8F16-8F97A8E2005E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4BF926-819E-4A5B-8F16-8F97A8E2005E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
